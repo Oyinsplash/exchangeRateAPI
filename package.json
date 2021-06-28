@@ -3,9 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "node ./bin/www",
+    "build": "tsc",
+    "postinstall": "yarn build",
     "start": "node ./bin/www",
-    "start:dev": "nodemon ./ibn/www -e js"
+    "start:dev": "nodemon ./bin/www -e js"
   },
   "dependencies": {
     "@types/axios": "^0.14.0",

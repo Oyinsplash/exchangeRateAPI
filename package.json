@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "node src/app",
     "start": "node ./bin/www",
     "start:dev": "nodemon ./ibn/www -e js"
   },
